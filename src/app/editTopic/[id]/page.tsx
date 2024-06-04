@@ -3,9 +3,6 @@ interface Params {
       id: string;
     };
 }
-
-
-
 import EditTopicForm from "@/app/components/EditTopicForm";
 const getTopicById=async(id:string)=>{
     try{
