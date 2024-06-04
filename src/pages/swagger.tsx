@@ -12,7 +12,6 @@ const SwaggerPage = () => {
             .then(setSpec)
             .catch(error => console.error('Error fetching Swagger spec:', error));
     }, []);
-
     
     if (!spec) {
         return <div>Loading...</div>;
